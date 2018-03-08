@@ -1,0 +1,1 @@
+return clipText.replace(/(\r\n|\n\r|\n|\r)/g, '');

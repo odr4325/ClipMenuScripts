@@ -1,7 +1,7 @@
 // custom action for ClipMenu
 // convert excel to markdown
 
-var lines = clipText.split('\r'); 
+var lines = clipText.split('\r');
 var header = lines.shift().split('\t');
 var border = makeBorder();
 var result = [];
